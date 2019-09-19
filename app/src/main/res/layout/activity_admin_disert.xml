@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/coba"
+    tools:context=".admin.adminmakanan.AdminMakanan">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anda Masuk Sebagai Admin"
+        android:textSize="32sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+            <Button
+                android:id="@+id/btntambahdatadisert"
+                android:layout_width="match_parent"
+                android:background="@drawable/btn"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Tambah Data"
+                android:textSize="25dp" />
+
+
+
+              <Button
+                 android:id="@+id/btnlihatdatadisert"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Lihat Data"
+                  android:layout_marginTop="15dp"
+                  android:background="@drawable/btn"
+                  android:textColor="#fff"
+                  android:textStyle="bold"
+                 android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

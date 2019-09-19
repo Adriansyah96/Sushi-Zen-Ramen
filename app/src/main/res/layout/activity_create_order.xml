@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.adminmakanan.Create">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Makanan"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/orderedtnomeja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Meja / Admin"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/orderedtnamamakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/orderedtharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga "
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/orderbtnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skripsiubsi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dapur.LoginDapur"></activity>
+        <activity android:name=".konsumen.Help" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".admin.Admmin_Key_Kasir" />
+        <activity android:name=".dapur.DetailDapur" />
+        <activity android:name=".dapur.Dapur" />
+        <activity android:name=".konsumen.Cart" />
+        <activity android:name=".admin.LoginAdmin" />
+        <activity android:name=".admin.KategoriAdmin"/>
+        <activity android:name=".konsumen.Kategori" />
+        <activity android:name=".konsumen.Add" />
+        <activity android:name=".admin.ReadOrder" />
+        <activity android:name=".konsumen.ReadKonsumen" />
+        <activity android:name=".konsumen.konsumendisert.ReadKonsumendisert" />
+        <activity android:name=".konsumen.konsumenminuman.ReadKonsumenminuman" />
+        <activity android:name=".konsumen.ReadDetail_Konsumen" />
+        <activity android:name=".admin.adminmakanan.AdminMakanan" />
+        <activity android:name=".admin.adminminuman.AdminMinuman" />
+        <activity android:name=".admin.admindisert.AdminDisert" />
+        <activity android:name=".admin.adminmakanan.Read" />
+        <activity android:name=".admin.adminminuman.Readminuman" />
+        <activity android:name=".admin.admindisert.Readdisert" />
+        <activity android:name=".admin.adminmakanan.Create" />
+        <activity android:name=".admin.adminminuman.Createminuman" />
+        <activity android:name=".admin.admindisert.Createdisert" />
+        <activity android:name=".Splash">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

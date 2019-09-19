@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "925697773638",
+    "firebase_url": "https://skripsiubsi-d5299.firebaseio.com",
+    "project_id": "skripsiubsi-d5299",
+    "storage_bucket": "skripsiubsi-d5299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925697773638:android:0cbaef8fa404fe14",
+        "android_client_info": {
+          "package_name": "com.example.skripsiubsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925697773638-6cna8ue3v2dq2rf724ns2m3p6n3gib77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skripsiubsi",
+            "certificate_hash": "044ed1ecef648dfc11a8f293cd67df0d29c36e07"
+          }
+        },
+        {
+          "client_id": "925697773638-lkcpd7465jp0kr1u0otgejjkc7isg0v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrw9SKCM7EW-YhzDdvo6DLPYkt2YUGqno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925697773638-lkcpd7465jp0kr1u0otgejjkc7isg0v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

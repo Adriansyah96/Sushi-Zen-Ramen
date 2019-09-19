@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coba1"
+    android:padding="10dp"
+    tools:context=".konsumen.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tutorkonsumen"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:text="1. Masukan No Meja Yang Anda Tempati"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="2. Masukan Nama Lengkap Pemesan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="3. Menjelaskan Tatacara Pemesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="4. Chart Untuk Melihat Status Pesanan"/>
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tutorkategori" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="1. Menampilkan Informasi Makanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="2. Pemilihan Kategori Makanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="3. Pemilihan Kategori Disert"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="4. Pemilihan Kategori Minuman"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="5. Semua Pesanan Yang Telah Anda Pesan Tersimpan Pada Cart"/>
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tutormenu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="1. Menampilkan Gambar Objek Pesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="2. Menampilkan Nama Objek Pesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="3. Melanjutkan Proses Pesanan"/>
+
+
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tutorpesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="1. Menambah Jumlah Pesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="2. Melihat Total Harga Terlebih Dahulu Sebelum Menyelesaikan Pesanan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="3. Pesanan Terselesaikan, dan Pesanan Anda Akan di Kirim Kedalam Chart"/>
+
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tutorcart"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="1. Menampilkan Pesanan Yang Telah Anda Pesan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="2. Total Keseluruhan Dari Pesanan Anda"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="3. Tekan PESAN SEKARANG Maka Pesanan Anda Akan di proses"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="SILAHKAN MENUNGGU BEBERAPA MENIT"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="PESANAN ANDA DALAM PROSES,TERIMAKASIH"/>
+
+    </LinearLayout>
+
+</ScrollView>

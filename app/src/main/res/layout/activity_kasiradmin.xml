@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coba"
+    android:padding="16dp">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_listkasiradmin"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/txttotalbayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bayar"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/rv_listkasiradmin" />
+
+    <TextView
+        android:id="@+id/txtspasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_listkasiradmin"
+        android:layout_toRightOf="@+id/txttotalbayar"
+        android:layout_marginTop="-2dp"
+        android:text="  :  "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_listkasiradmin"
+        android:layout_toRightOf="@+id/txtspasi"
+        android:layout_marginTop="-2dp"
+        android:text=" Rp "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txthasil_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_listkasiradmin"
+        android:layout_toRightOf="@+id/txtrp"
+        android:layout_marginTop="-2dp"
+        android:text="2000"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/txtnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Konsumen"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txttotalbayar" />
+
+    <TextView
+        android:id="@+id/txtspasi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttotalbayar"
+        android:layout_toRightOf="@+id/txtnama"
+        android:layout_marginTop="-2dp"
+        android:text="  :  "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnamakonsumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttotalbayar"
+        android:layout_toRightOf="@+id/txtspasi1"
+        android:layout_marginTop="-2dp"
+        android:text=" Yusuf "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/txtnomeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomer Meja"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtnama" />
+
+    <TextView
+        android:id="@+id/txtspasi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnama"
+        android:layout_toRightOf="@+id/txtnomeja"
+        android:layout_marginTop="-2dp"
+        android:text="  :  "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnomermeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnama"
+        android:layout_toRightOf="@+id/txtspasi2"
+        android:layout_marginTop="-2dp"
+        android:text=" 02 "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/txttanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtnomeja" />
+
+    <TextView
+        android:id="@+id/txtspasi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnomeja"
+        android:layout_toRightOf="@+id/txttanggal"
+        android:layout_marginTop="-2dp"
+        android:text="  :  "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttanggalpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnomeja"
+        android:layout_toRightOf="@+id/txtspasi3"
+        android:layout_marginTop="-2dp"
+        android:text=" 12-01-2019 "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnamakonsumen"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:text="Print"
+        android:background="@drawable/btn"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
